@@ -1,0 +1,31 @@
+.title{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+#txtNumber{
+    background-color: aqua;
+    color: black;
+    height: 30px;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+#input{
+    background-color: skyblue;
+    color: black;
+    height: 30px;
+    width: 100px;
+    margin-left: 570px;
+    margin-top: 20px;
+    border-radius: 5px;    
+}
