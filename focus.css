@@ -1,0 +1,25 @@
+*{
+ background-color: plum;
+}
+h2{
+    height: 50px;
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    text-align: center;
+}
+#input1{
+    height: 30px;
+    width: 50%;
+    text-align: center;
+    margin-left: -10px;
+}
+#input2{
+    height: 30px;
+    width: 50%;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
