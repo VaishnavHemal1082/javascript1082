@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("BtnFadeOut").attr("disabled", true);
+
+            $("#BtnFadeIn").click(function () {
+
+                if (confirm("Are You Sure....?")) {
+                    $("#MyDiv1").fadeIn(100).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv2").fadeIn(200).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv3").fadeIn(300).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv4").fadeIn(400).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv5").fadeIn(500).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv6").fadeIn(600).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv7").fadeIn(700).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv8").fadeIn(900).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv9").fadeIn(1000).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#MyDiv10").fadeIn(100).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);$("#MyDiv1").fadeIn(100).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#BtnFadeOut").attr("disabled", false);
+                    $(this).attr("disabled", true);
+
+                }
+            });
+            $("#BtnFadeOut").click(function () {
+
+                if (confirm("Are You Sure....?")) {
+
+                    $("#MyDiv1").fadeIn(100).fadeOut(400).fadeIn(600).fadeOut(800).fadeIn(1000).fadeOut(1200);
+                    $("#MyDiv2").fadeIn(400).fadeOut(400).fadeIn(600).fadeOut(800).fadeIn(1000).fadeOut(1200);
+                    $("#MyDiv3").fadeIn(600).fadeOut(800).fadeIn(1000).fadeOut(1200).fadeIn(1600).fadeOut(1800);
+                    $("#MyDiv4").fadeIn(800).fadeOut(1000).fadeIn(1200).fadeOut(1600).fadeIn(1800).fadeOut(2000);
+                    $("#MyDiv5").fadeIn(1000).fadeOut(1200).fadeIn(1600).fadeOut(1800).fadeIn(2000).fadeOut(2200);
+                    $("#MyDiv6").fadeIn(1200).fadeOut(1400).fadeIn(1600).fadeOut(1800).fadeIn(2000).fadeOut(2200);
+                    $("#MyDiv7").fadeIn(1400).fadeOut(1600).fadeIn(1800).fadeOut(2000).fadeIn(2200).fadeOut(2600);
+                    $("#MyDiv8").fadeIn(1600).fadeOut(1800).fadeIn(2000).fadeOut(2200).fadeIn(2600).fadeOut(2800);
+                    $("#MyDiv9").fadeIn(1800).fadeOut(2000).fadeIn(2200).fadeOut(2400).fadeIn(2600).fadeOut(2800);
+                    $("#MyDiv10").fadeIn(100).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#BtnFadeOut").attr("disabled", false);
+                    $(this).attr("disabled", true);
+
+                }
+            });
+            $("#BtnFadeToggle").click(function () {
+
+                if (confirm("Are You Sure....?")) {
+
+                    $("#MyDiv1").fadeIn(100).fadeOut(400).fadeIn(600).fadeOut(800).fadeIn(1000).fadeOut(1200);
+                    $("#MyDiv2").fadeIn(400).fadeOut(400).fadeIn(600).fadeOut(800).fadeIn(1000).fadeOut(1200);
+                    $("#MyDiv3").fadeIn(600).fadeOut(800).fadeIn(1000).fadeOut(1200).fadeIn(1600).fadeOut(1800);
+                    $("#MyDiv4").fadeIn(800).fadeOut(1000).fadeIn(1200).fadeOut(1600).fadeIn(1800).fadeOut(2000);
+                    $("#MyDiv5").fadeIn(1000).fadeOut(1200).fadeIn(1600).fadeOut(1800).fadeIn(2000).fadeOut(2200);
+                    $("#MyDiv6").fadeIn(1200).fadeOut(1400).fadeIn(1600).fadeOut(1800).fadeIn(2000).fadeOut(2200);
+                    $("#MyDiv7").fadeIn(1400).fadeOut(1600).fadeIn(1800).fadeOut(2000).fadeIn(2200).fadeOut(2600);
+                    $("#MyDiv8").fadeIn(1600).fadeOut(1800).fadeIn(2000).fadeOut(2200).fadeIn(2600).fadeOut(2800);
+                    $("#MyDiv9").fadeIn(1800).fadeOut(2000).fadeIn(2200).fadeOut(2400).fadeIn(2600).fadeOut(2800);
+                    $("#MyDiv10").fadeIn(100).fadeOut(200).fadeIn(300).fadeOut(400).fadeIn(500).fadeOut(600);
+                    $("#BtnFadeOut").attr("disabled", false);
+                    $(this).attr("disabled", true);
+
+                }
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <button id="BtnFadeIn">Click me</button>&nbsp;&nbsp;&nbsp;<button id="BtnFadeOut">Click
+        me</button>&nbsp;&nbsp;&nbsp;<button id="BtnFadeToggle">click me</button>
+    <div id="MyDiv1" style="height: 100px; width: 100px; background-color: navy; display: none;"></div><br>
+    <div id="MyDiv2" style="height: 100px; width: 100px; background-color: palevioletred; display: none;"></div><br>
+    <div id="MyDiv3" style="height: 100px; width: 100px; background-color: green; display: none;"></div><br>
+    <div id="MyDiv4" style="height: 100px; width: 100px; background-color: pink; display: none;"></div><br>
+    <div id="MyDiv5" style="height: 100px; width: 100px; background-color: orange; display: none;"></div><br>
+    <div id="MyDiv6" style="height: 100px; width: 100px; background-color: red; display: none;"></div><br>
+    <div id="MyDiv7" style="height: 100px; width: 100px; background-color: chartreuse; display: none;"></div><br>
+    <div id="MyDiv8" style="height: 100px; width: 100px; background-color: coral; display: none;"></div><br>
+    <div id="MyDiv9" style="height: 100px; width: 100px; background-color: peru; display: none;"></div><br>
+    <div id="MyDiv10" style="height: 100px; width: 100px; background-color: cadetblue; display: none;"></div><br>
+</body>
+
+</html>
